@@ -1,1 +1,5 @@
-<p>yu-gi-oh works!</p>
+
+<div *ngFor = "let g of b">
+    <p>{{g.name}}</p>
+    <a routerLink="/item/{{g.id}}">{{g.id}}</a>
+</div>
